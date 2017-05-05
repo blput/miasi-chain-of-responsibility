@@ -22,6 +22,10 @@ public class Parsing implements IOperation {
         {
             this.obj.operation(text);
         }
+        else
+        {
+            System.out.print("Błąd parsowania, błędnie podane liczby!");
+        }
         //todo:exception
 
     }
